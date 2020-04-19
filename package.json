@@ -9,23 +9,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/basarat/cypress-ts.git"
+    "url": " "
   },
   "keywords": [
     "cypress",
     "typescript"
   ],
-  "author": "bas@basarat.com",
+  "author": "Ammarah",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/basarat/cypress-ts/issues"
-  },
-  "homepage": "https://github.com/basarat/cypress-ts#readme",
+  "bugs": {},
+  "homepage": " ",
   "dependencies": {
-    "@cypress/webpack-preprocessor": "4.1.0",
-    "cypress": "3.3.2",
-    "ts-loader": "6.0.4",
-    "typescript": "3.5.2",
-    "webpack": "4.35.2"
+    "@cypress/webpack-preprocessor": "^4.1.0",
+    "@types/node": "^13.13.0",
+    "cypress-downloadfile": "^1.2.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.2"
+  },
+  "devDependencies": {
+    "@types/expect": "^24.3.0",
+    "@types/mocha": "^7.0.2",
+    "cypress": "^3.8.3"
   }
 }
